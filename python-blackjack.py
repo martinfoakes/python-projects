@@ -104,8 +104,8 @@ class Hand:
 
 # Chips class to track players' starting value, bets, and winning/losses
 class Chips:
-    def __init__(self):
-        self.total = 150
+    def __init__(self, total=150):
+        self.total = total
         self.bet = 0
     
     def win_bet(self):
