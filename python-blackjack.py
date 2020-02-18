@@ -249,7 +249,7 @@ while True:
     all_players = [player_one]
     all_banks = [player_one_bank]
     
-    # Deal two cards to each player
+    # Deal two cards to dealer and to each player
     for i in range(0,2):
         game_dealer.add_card(game_deck.deal())
     
