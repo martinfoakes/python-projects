@@ -50,6 +50,8 @@ class Card:
 
 # Deck class to store all card objects
 class Deck:
+    # The deck class needs to be the same everytime, you don't want
+    # the user to be able to pass in an argument and alter anything
     def __init__(self):
         '''
           Initialise Deck object with attribute of list of Card objects from all ranks and suits
