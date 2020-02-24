@@ -1,8 +1,17 @@
-# python-blackjack
-A CLI based game of blackjack, built in Python
+# Python Projects
 
-Download the source file, navigate to its location on the command line,
-then with Python configured locally, run:
+Python Projects is a repo for saving collections of Python Learning Assessments
+
+## Installation
+
+Have Python configured locally on your machine: ( https://docs.python.org/3/using/index.html )
+
+
+## Usage
+Either clone this repo, or download as a Zip
+
+Navigate into a project's directory and in your command line run:
+
 ```python
-  python python-blackjack.py
+python fileName.py
 ```
